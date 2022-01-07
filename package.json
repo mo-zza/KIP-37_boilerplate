@@ -27,6 +27,7 @@
     "generate": "truffle compile && typechain --target truffle './build/**/*.json'",
     "prepare": "yarn generate",
     "test": "truffle test && yarn tsc",
-    "tsc": "tsc --noEmit"
+    "tsc": "tsc --noEmit",
+    "connect": "remixd -s /Users/hajaeu/dev/KIP-37_boilerplate/contracts -u https://ide.klaytn.com"
   }
 }

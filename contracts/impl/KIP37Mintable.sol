@@ -1,4 +1,4 @@
-pragma solidity ^0.5.0;
+pragma solidity ^0.8.0;
 
 import "./KIP37.sol";
 import "../access/roles/MinterRole.sol";
